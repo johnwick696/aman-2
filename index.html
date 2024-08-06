@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Blog</title>
+    <link rel="stylesheet" href="blog_2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>My Blog</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#posts">Blog Posts</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2>Welcome to Aman's Blog</h2>
+                <p>Explore the world of programming, technology, and more!</p>
+                <a href="#posts" class="cta">Read Latest Posts</a>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <p>heyo! Im Aman Goyal this is my blog website i love to explore world do travelling and want to be close and familier with the technology.</p>
+        </section>
+
+        <section id="posts" class="posts">
+            <h2>Blog Posts</h2>
+            <div class="post-grid">
+                <article class="post">
+                    <img src="https://www.proideators.com/wp-content/uploads/2022/07/How-To-Make-Your-Career-As-A-Food-Blogger-In-India-ProiDeators.jpg" alt="Post Image">
+                    <h3>FOOD BLOG</h3>
+                    <p>I love to taste and eat diffrent diffrent food varities across the county to country</p>
+                    <a href="#" class="read-more">Read More</a>
+                </article>
+                <article class="post">
+                    <img src="https://source.coveo.com/images/illustration-full.png" alt="Post Image">
+                    <h3>TECH BLOG</h3>
+                    <p>As a web developer i love to explore tech field and try new new gadgets and make blog of them.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </article>
+                <article class="post">
+                    <img src="https://discovertemplate.com/wp-content/uploads/2020/08/Travel-Blogging-by-Discover-Template-1-scaled.jpg" alt="Post Image">
+                    <h3>TRAVEL BLOG</h3>
+                    <p>Time never come back. travelling gives best expirence and memories.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Blog. All rights reserved. created by Aman Goyal </p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+
+    <script src="blog_2.js"></script>
+</body>
+</html>
